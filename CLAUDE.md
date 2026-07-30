@@ -97,6 +97,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - Must be full-time
 - No excessive travel (less than 40% travel)
 - Salary must be survivable in the D.C. area, ideally $60,000+
+- U.S. federal positions: qualifies up to **GS-9 only** - GS-10 and above are a hard exclusion (see `04-job-evaluation.md` eligibility gate)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

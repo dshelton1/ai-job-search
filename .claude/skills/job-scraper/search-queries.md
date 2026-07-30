@@ -77,6 +77,13 @@ When evaluating results, verify the job location is within reasonable commute di
 - Other major U.S. metros - borderline (discuss with Daniel; open to relocating only if salary/benefits are strong enough to justify it)
 - Roles requiring more than 40% travel - too far / excluded (deal-breaker)
 
+## Federal Grade-Level Filter (USAJobs only)
+
+Daniel qualifies up to **GS-9 only**. When evaluating any USAJobs/federal result, check the posting's stated grade:
+- GS-9 or below (or a ladder whose entry point is GS-9): include
+- GS-10 or above: exclude - this is a hard filter, same as the location/eligibility rules, not a soft preference
+- Grade not visible from the search snippet: include but flag as "grade unverified - check posting" rather than assuming it passes
+
 ## Date Filter
 
 Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".

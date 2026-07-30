@@ -16,7 +16,7 @@ framework_version: 1.0.0
 - **GitHub:** https://github.com/dshelton1
 - **Languages:** English (native)
 - **Status:** Recent graduate, actively job-seeking
-- **Constraints:** Open to relocating; ideally DMV, Richmond, or Newport News/Norfolk, but will relocate elsewhere for the right salary/benefits
+- **Constraints:** Open to relocating; ideally DMV, Richmond, or Newport News/Norfolk, but will relocate elsewhere for the right salary/benefits. For U.S. federal (USAJobs) positions, qualifies up to **GS-9 only** - GS-10 and above are excluded.
 
 ## Education
 

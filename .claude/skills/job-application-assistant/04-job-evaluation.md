@@ -28,6 +28,17 @@ Read the posting's eligibility / work rights / "who can apply" section **verbati
 
 If the candidate's permit also constrains *hours* or *start date* (a student visa with a term-time cap, a permit that begins on graduation), record that as a second gate under this section during `/setup`, with the specific dates. Do not merge it with the eligibility question above — they fail for different reasons and need different answers.
 
+### U.S. Federal Grade-Level Ceiling (hard filter, USAJobs/federal postings only)
+
+Daniel Shelton qualifies up to **GS-9** for U.S. federal government positions. This is a hard filter, not a scoring dimension: a GS-10 or higher posting is excluded regardless of how well the role otherwise matches, the same way a citizenship failure is.
+
+- Check the posting's stated grade (e.g. "GS-9", "GS-11/12/13", or a "GS-9/11/12" ladder where only the GS-9 entry point is currently open to him).
+- **FAIL — do not score, do not draft** for any posting whose lowest available/entry grade is GS-10 or above.
+- **PASS** for GS-9 and below, or for a ladder/promotion-potential posting whose entry grade is GS-9 (even if it promotes higher later - that is normal federal hiring practice, not a grade requirement at the time of application).
+- If the grade is not stated in the posting (common in WebSearch snippets that don't reach the full listing), mark **unverified** and tell the user to check the grade on the actual USAJobs listing before proceeding - do not assume it passes.
+
+Report a grade-level failure to the user with the stated grade quoted back, same as an eligibility failure.
+
 A role that fails this gate is not scored and not drafted. Everything below applies only to roles that pass it.
 
 ## Scoring Dimensions
