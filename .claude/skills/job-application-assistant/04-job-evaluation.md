@@ -44,9 +44,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Policy analysis, strategic research, stakeholder communications/engagement, client deliverables, data analysis
+**Moderate match areas:** R/RStudio, SPSS, GIS, event planning/coordination
+**Weak match areas:** Advanced statistical/technical roles requiring software development, formal programming, or heavy quantitative modeling beyond intro-level R/SPSS coursework
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -58,9 +58,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Policy research and analysis, consulting-style client research, education policy/legislative tracking, conference/event coordination, stakeholder communications
+**Moderate:** Program/project coordination, nonprofit operations, data systems management
+**Entry-level:** Roles requiring several years of professional (non-internship/fellowship) experience, given a recent-graduate profile built primarily on fellowships and internships
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,19 +91,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Open to all industries; not narrowly targeting a single sector
+- Seeking a full-time role where he can contribute meaningfully to a project or mission
+- Prioritizing organizations with clear leadership/goal-setting over role prestige or industry
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Contributing meaningfully to a project with visible impact; collaborative research and stakeholder-facing work
+- Tasks that drain: Working under unclear goals or poor/absent leadership direction (see First State Educate experience in `02-behavioral-profile.md`)
+- Non-task factors: leadership clarity, department culture, degree of structure and support
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Recent graduate, job-seeking; needs full-time paid work, no unpaid roles
+- **Flexibility**: Open to relocating (ideally DMV, Richmond, or Newport News/Norfolk; will relocate further for strong salary/benefits); travel must stay under 40%
+- **Professional development**: Early-career; prioritizing roles with genuine ownership and mentorship/clear leadership over prestige alone
 
 ### 6. Salary Benchmark (Optional)
 

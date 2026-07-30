@@ -11,65 +11,71 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **usajobs.gov** - federal government jobs (no CLI installed yet; use WebSearch/`site:` fallback below, or run `/add-portal` to scaffold a CLI)
+- **linkedin.com/jobs** - LinkedIn job listings (filter: United States / Washington, D.C.); also covered by `linkedin-search` CLI
+- **indeed.com** - general job board (no CLI installed; WebSearch/`site:` fallback)
+- **glassdoor.com** - general job board with company reviews (no CLI installed; WebSearch/`site:` fallback)
+- **ziprecruiter.com** - general job board (no CLI installed; WebSearch/`site:` fallback)
+
+Note: only `linkedin-search` and `freehire-search` CLIs are currently installed under `.agents/skills/`. USAJobs, Indeed, Glassdoor, and ZipRecruiter have no dedicated CLI yet - `/scrape` will fall back to WebSearch with the `site:` queries below for these. Run `/add-portal` if you want a dedicated CLI scaffolded for any of them.
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for known target companies (open search - no specific target company list)
 
 ## Query Categories
 
 Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Policy Analyst / Research Associate
 
 These match your strongest and most desired career direction.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
+site:usajobs.gov "Policy Analyst" Washington DC
+site:indeed.com "Policy Analyst" OR "Research Associate" Washington DC
+site:linkedin.com/jobs "Policy Analyst" Washington DC United States
+site:linkedin.com/jobs "Research Associate" "policy analysis" United States
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: Consulting / Government Affairs / Foreign Policy Domain
 
 These match your domain expertise.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:indeed.com "policy analysis" OR "strategic research" Washington DC OR Virginia
+site:glassdoor.com "Government Affairs Associate" Washington DC
+site:linkedin.com/jobs "Consulting Analyst" "stakeholder" Washington DC United States
+site:linkedin.com/jobs "foreign policy" OR "national security" analyst Washington DC
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 3: Program/Project Coordination & Legislative Roles
 
 Adjacent roles you could pivot into.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:indeed.com "Program Coordinator" "stakeholder engagement" Washington DC
+site:linkedin.com/jobs "Legislative Correspondent" OR "Staff Assistant" Washington DC
+site:ziprecruiter.com "Project Coordinator" nonprofit Washington DC
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 4: Broader Research / Administrative Roles
 
-Wider net for general technical roles.
+Wider net for general roles matching transferable skills.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:indeed.com "research analyst" Washington DC OR Richmond OR Norfolk
+site:linkedin.com/jobs "research analyst" "policy analysis" United States
+site:glassdoor.com "program coordinator" OR "project coordinator" Washington DC
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is within reasonable commute distance from home, or is open to relocation. Define acceptable areas:
+- Washington, D.C. and the DMV (D.C., Maryland, Virginia suburbs) - ideal
+- Richmond, VA - acceptable
+- Newport News / Norfolk, VA - acceptable
+- Other major U.S. metros - borderline (discuss with Daniel; open to relocating only if salary/benefits are strong enough to justify it)
+- Roles requiring more than 40% travel - too far / excluded (deal-breaker)
 
 ## Date Filter
 

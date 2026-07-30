@@ -116,11 +116,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For policy analyst / research roles:**
+> International Affairs professional with a Master of Arts from George Washington University's Elliott School, concentrating in U.S. Foreign Policy. Experienced in strategic research, stakeholder analysis, and policy analysis, including a capstone project producing policy recommendations on climate displacement for WWF Greece and the Greek Council for Refugees. Brings a track record of translating complex information into clear, decision-ready written products.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For consulting / client-facing roles:**
+> International Affairs professional experienced in strategic research, stakeholder analysis, and producing executive-level deliverables across consulting, policy, and organizational settings. Brings a track record of managing multi-stakeholder projects in fast-paced environments and translating complex information into clear written products for client and leadership audiences.
+
+**For program/project coordination roles:**
+> International Affairs professional with experience managing research projects, coordinating large-scale conferences (up to 300 attendees), and directing multi-stakeholder initiatives under tight deadlines. Combines organizational and logistics coordination with strong stakeholder communication and policy research skills.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

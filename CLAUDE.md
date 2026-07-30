@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Daniel Shelton
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Daniel Shelton, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,67 +16,87 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Daniel Shelton
+- **Location:** Washington, D.C., United States (open to relocating; ideally DMV, Richmond, or Newport News/Norfolk, but will relocate elsewhere for the right salary/benefits)
+- **Languages:** English - native
+- **CV language:** English <!-- English unless your market expects otherwise; /setup asks -->
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Recent graduate, actively job-seeking
+- **LinkedIn headline:** "International Affairs professional | U.S. Foreign Policy | Strategic Research & Policy Analysis"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Master of Arts in International Affairs** (2024-2026) - George Washington University, Elliott School of International Affairs
+  - Concentration: U.S. Foreign Policy. GPA: 3.85.
+  - Thesis/Capstone: "Policy recommendations for climate-displaced people in Greece/EU" - conducted with WWF Greece and the Greek Council for Refugees, covering both domestic and international displacement
+  - Topics: Diplomacy, U.S. foreign policy and security
+- **Bachelor of Arts in International Affairs and American Studies** (2020-2024) - Christopher Newport University
+  - Minors: U.S. National Security Studies, Leadership Studies, International Business and Culture. GPA: 3.84.
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Fellow** (February 2026 - May 2026) - **Cambridge Global Advisors** (Washington, DC)
+  - Conducted strategic research on client organizations and key stakeholders to support consulting engagements
+  - Developed AI-enabled workflows and prompts (using Claude Code) to improve internal research capabilities and client deliverables
+  - Produced and edited executive-level presentations and briefing materials for professional audiences
+  - Synthesized complex information into concise written products to support stakeholder communications
+- **Executive Projects Fellow** (February 2026 - May 2026) - **First State Educate** (Wilmington, DE)
+  - Maintained and optimized organizational data systems to improve information accessibility and operational efficiency
+  - Analyzed state legislation and policy developments affecting education governance, delivering actionable updates to leadership
+  - Designed implementation plans and supporting documentation for a statewide legislative internship program
+  - Researched organizational growth opportunities and developed strategic recommendations to increase membership and stakeholder engagement
+- **Intern** (November 2024 - December 2025) - **National Defense Transportation Association** (Alexandria, VA)
+  - Designed data tracking systems to improve membership reporting and organizational decision-making
+  - Supported implementation of mobile application enhancements that improved conference operations and attendee experience
+  - Managed digitization of more than 360 historical journal editions, increasing long-term organizational accessibility
+  - Coordinated logistics and stakeholder communications for multiple large-scale professional conferences
+- **Lead Junior Fellow** (May 2023 - August 2024) - **CNU Center for American Studies** (Newport News, VA)
+  - Managed research projects involving approximately 20 student researchers and six faculty members
+  - Coordinated planning and execution of conferences with approximately 300 attendees from government, military, academia, and industry
+  - Directed project timelines, delegated responsibilities, and ensured successful completion of concurrent initiatives
+- **Junior Fellow** (April 2022 - August 2024) - **CNU Center for American Studies** (Newport News, VA)
+  - Planned and executed multiple national security and American studies conferences throughout the year
+  - Produced promotional materials for professional conferences and workshops with hundreds of attendees
+  - Conducted archival research, copy editing, and proofreading for American studies and national security books and articles
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Policy Analysis, Strategic Research, Stakeholder Communications/Engagement, Client Deliverables, Data Analysis
+- **Secondary:** R/RStudio, SPSS, GIS, Event Planning
+- **Domain:** U.S. Foreign Policy, National Security, International Affairs, Education Policy
+- **Software:** Microsoft Suite (Word, Excel, PowerPoint, Teams), Google Suite equivalents, Canva, Google Scholar
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+<!-- None currently -->
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+<!-- None currently -->
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+<!-- None currently -->
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Self-assessed; no formal instrument on file -->
+- **Collaborative** - Thrives in team-based, collaborative work environments
+- **Adaptive decision-maker** - Moves quickly when speed is needed, and researches deliberately when depth is required
+- **Strengths:** Diplomatic and concise communication that adapts to the workplace's style; comfortable leading, supporting, or working independently depending on what's needed
+- **Growth areas:** Prefers clear goals and structured leadership; less effective in ambiguous, under-managed environments
+- **Thrives in:** Collaborative teams with clear direction and defined leadership
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- The ability to contribute meaningfully to a project
+- Open to opportunities across all industries where that contribution is possible
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Open to all industries: policy, consulting, government, nonprofit, and international affairs organizations
 
 ### Deal-breakers
 <!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- No unpaid work
+- Must be full-time
+- No excessive travel (less than 40% travel)
+- Salary must be survivable in the D.C. area, ideally $60,000+
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
