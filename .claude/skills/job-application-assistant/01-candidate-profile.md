@@ -62,6 +62,18 @@ Newport News, VA
 - Produced promotional materials, including posters and fliers, for professional conferences and workshops with hundreds of attendees
 - Conducted archival research, copy editing, and proofreading for American studies and national security books and articles
 
+## Volunteer / Advocacy Experience
+
+### Volunteer -> Volunteer Lead - Mike Mullin for Delegate Campaign (2022)
+Virginia
+- Canvassed and phone banked to support voter outreach for a Virginia House of Delegates campaign
+- Promoted from volunteer to volunteer lead; trained and recruited new volunteers
+- Performance on the campaign led to recruitment by the Progressive Turnout Project for a paid canvassing fellowship
+
+### Canvassing Fellow (paid, part-time/seasonal) - Progressive Turnout Project (2022)
+Virginia
+- Conducted door-to-door voter canvassing as a paid, part-time fellow during the 2022 election cycle
+
 ## Independent Projects
 <!-- None currently -->
 
